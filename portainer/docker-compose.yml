@@ -1,7 +1,6 @@
 services:
 
   
-  
   portainer:
     image: portainer/portainer-ce:latest
     restart: always
