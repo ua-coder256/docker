@@ -32,27 +32,27 @@ docker-compose up -d
 ## 1. Contenedores
 
 1.1 ¿ Dónde podemos ver los contendores en marcha en la aplicación Docker Desktop? (Captura)
-
+![alt text](image-1.png)
 1.2 Para ver los contendores en marcha desde la terminal se usa el comando `docker ps`, ejecutalo. (Captura)
-
+![alt text](image-2.png)
 1.4 ¿Qué muestra el comando `docker container`?
 
 1.5 ¿Qué muestra el comando `docker container ls`?
-
+![alt text](image-3.png)
 ## 2. Imagenes
 
 2.1 ¿Dónde podemos ver las imágenes que tenemos descargadas en la aplicación Docker Desktop? (Captura)
 
 2.2 ¿Qué muestra el comando `docker images`?
-
+![alt text](image-4.png)
 2.3 ¿Qué muestra el comando `docker image ls`
 
 ## 3. Volumenes
 
 3.1 ¿Dónde podemos ver los volumenes que tenemos en la aplicación Docker Desktop? (Captura)
-
+![alt text](image-5.png)
 3.2 ¿Qué vemos en Docker Desktop si entramos en uno de los volumenes disponibles? (Captura)
-
+![alt text](image-6.png)
 3.3 ¿Qué muestra el comando `docker volume`?
 
 3.4 ¿Qué muestra el comando `docker volume ls`?
@@ -61,7 +61,6 @@ docker-compose up -d
 
 4.1 Si entramos en un contendor, verémos las siguientes pestañas. Las más importantes son **Logs**, **Exec** y **Files**. Explica para qué crees que sirve cada una.
 
-![alt text](image.png)
 
 4.2 Si queremos ejecutar comandos dentro de un contendor podemos usar Docker Desktop o podemos utilizar el comando `docker exec`. 
 
@@ -76,3 +75,5 @@ Ejecuta el comando y muestra una captura de la terminal dentro del contendor.
 
 
 4.3 Apaga todos los contendores de este proyecto con el comando `docker compose down` (Captura)
+
+
