@@ -268,3 +268,373 @@ PRAGMA temp_store=2;
 [2026-10-16 09:54:48.537 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Core startup complete
 [2026-10-16 09:54:48.537 +00:00] [INF] [15] Main: Startup complete 0:00:55.8673729
 [2026-10-16 09:54:49.021 +00:00] [INF] [19] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2026-10-16 10:11:52.248 +00:00] [ERR] [53] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:11:53.389 +00:00] [ERR] [45] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:11:54.920 +00:00] [ERR] [45] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:11:55.006 +00:00] [INF] [51] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-10-16 10:11:55.023 +00:00] [INF] [51] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:11:55.360 +00:00] [WRN] [51] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "root"
+[2026-10-16 10:11:56.783 +00:00] [WRN] [51] Microsoft.EntityFrameworkCore.Query: The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+[2026-10-16 10:11:57.235 +00:00] [ERR] [47] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:00.653 +00:00] [ERR] [45] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:05.469 +00:00] [ERR] [47] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:05.765 +00:00] [ERR] [51] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:11.429 +00:00] [INF] [47] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-10-16 10:12:11.519 +00:00] [INF] [47] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:12:13.155 +00:00] [ERR] [51] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.24.0.5"]
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-10-16 10:12:13.208 +00:00] [INF] [47] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-10-16 10:12:14.181 +00:00] [INF] [51] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2026-10-16 10:12:14.204 +00:00] [INF] [51] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:12:14.241 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2026-10-16 10:12:15.919 +00:00] [ERR] [51] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:16.532 +00:00] [INF] [51] Jellyfin.Api.Auth.CustomAuthenticationHandler: "CustomAuthentication" was not authenticated. Failure message: "Invalid token."
+[2026-10-16 10:12:17.002 +00:00] [ERR] [53] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:17.605 +00:00] [WRN] [47] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-10-16 10:12:17.911 +00:00] [WRN] [47] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2026-10-16 10:12:17.939 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running 9 post-scan task(s)
+[2026-10-16 10:12:17.939 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 1/9: "SplashscreenPostScanTask"
+[2026-10-16 10:12:18.258 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "SplashscreenPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:18.259 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 2/9: "ArtistsPostScanTask"
+[2026-10-16 10:12:18.574 +00:00] [ERR] [45] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:18.625 +00:00] [INF] [47] Emby.Server.Implementations.Library.Validators.ArtistsValidator: Refreshed metadata for 0 new artists out of 0 total
+[2026-10-16 10:12:19.054 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "ArtistsPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:19.054 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 3/9: "CollectionPosterVerifyPostScanTask"
+[2026-10-16 10:12:19.068 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "CollectionPosterVerifyPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:19.068 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 4/9: "CollectionPostScanTask"
+[2026-10-16 10:12:19.076 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "CollectionPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:19.078 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 5/9: "GenresPostScanTask"
+[2026-10-16 10:12:19.436 +00:00] [INF] [47] Emby.Server.Implementations.Library.Validators.GenresValidator: Refreshed metadata for 0 new genres out of 0 total
+[2026-10-16 10:12:19.712 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "GenresPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:19.712 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 6/9: "MusicGenresPostScanTask"
+[2026-10-16 10:12:19.755 +00:00] [INF] [47] Emby.Server.Implementations.Library.Validators.MusicGenresValidator: Refreshed metadata for 0 new music genres out of 0 total
+[2026-10-16 10:12:19.755 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "MusicGenresPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:19.755 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 7/9: "StudiosPostScanTask"
+[2026-10-16 10:12:19.819 +00:00] [INF] [47] Emby.Server.Implementations.Library.Validators.StudiosValidator: Refreshed metadata for 0 new studios out of 0 total
+[2026-10-16 10:12:20.337 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "StudiosPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:20.338 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 8/9: "CleanDatabaseScheduledTask"
+[2026-10-16 10:12:20.905 +00:00] [ERR] [48] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:21.043 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "CleanDatabaseScheduledTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:21.043 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Running post-scan task 9/9: "RefreshDatabaseStatisticsPostScanTask"
+[2026-10-16 10:12:21.062 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: Post-scan task "RefreshDatabaseStatisticsPostScanTask" completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:12:21.062 +00:00] [INF] [47] Emby.Server.Implementations.Library.LibraryManager: All post-scan tasks completed after 0 minute(s) and 3 seconds
+[2026-10-16 10:12:21.113 +00:00] [INF] [47] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Escanear la biblioteca" Completed after 0 minute(s) and 6 seconds
+[2026-10-16 10:12:23.473 +00:00] [INF] [53] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "root" has succeeded.
+[2026-10-16 10:12:23.475 +00:00] [INF] [53] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "root": 0/0
+[2026-10-16 10:12:23.479 +00:00] [INF] [53] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user ea6adf0b-a29b-42ac-9a73-4009f8a7df19
+[2026-10-16 10:12:24.478 +00:00] [ERR] [45] Jellyfin.Api.Middleware.ExceptionMiddleware: Error processing request: "Token is required". URL "GET" "/socket".
+[2026-10-16 10:12:25.703 +00:00] [INF] [45] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.24.0.1" request
+[2026-10-16 10:12:32.561 +00:00] [INF] [45] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.24.0.1" closed
+[2026-10-16 10:18:13.759 +00:00] [INF] [23] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-10-16 10:18:13.817 +00:00] [INF] [22] Main: Preparing the database for shutdown...
+[2026-10-16 10:18:14.085 +00:00] [INF] [22] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-10-16 10:18:14.086 +00:00] [INF] [22] Emby.Server.Implementations.ApplicationHost: Disposing "Plugin"
+[2026-10-16 10:18:18.060 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:18:21.399 +00:00] [INF] [7] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:18:21.624 +00:00] [INF] [7] Main: Jellyfin version: "12.2.0"
+[2026-10-16 10:18:21.646 +00:00] [INF] [7] Main: Environment Variables: ["[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]"]
+[2026-10-16 10:18:21.662 +00:00] [INF] [7] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-10-16 10:18:21.663 +00:00] [INF] [7] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-10-16 10:18:21.664 +00:00] [INF] [7] Main: Architecture: X64
+[2026-10-16 10:18:21.673 +00:00] [INF] [7] Main: 64-Bit Process: True
+[2026-10-16 10:18:21.676 +00:00] [INF] [7] Main: User Interactive: True
+[2026-10-16 10:18:21.677 +00:00] [INF] [7] Main: Processor count: 4
+[2026-10-16 10:18:21.678 +00:00] [INF] [7] Main: Program data path: "/config"
+[2026-10-16 10:18:21.679 +00:00] [INF] [7] Main: Log directory path: "/config/log"
+[2026-10-16 10:18:21.680 +00:00] [INF] [7] Main: Config directory path: "/config/config"
+[2026-10-16 10:18:21.680 +00:00] [INF] [7] Main: Cache path: "/cache"
+[2026-10-16 10:18:21.681 +00:00] [INF] [7] Main: Temp directory path: "/tmp/jellyfin"
+[2026-10-16 10:18:21.682 +00:00] [INF] [7] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-10-16 10:18:21.694 +00:00] [INF] [7] Main: Application directory: "/jellyfin/"
+[2026-10-16 10:18:21.767 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config/data"` (Network) successfully checked with "131.4GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:18:21.769 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/cache"` (Fixed) successfully checked with "938.4GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:18:21.773 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config"` (Network) successfully checked with "131.4GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:18:21.802 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:18:22.625 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:18:22.717 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:18:22.733 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:18:23.334 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-10-16 10:18:27.683 +00:00] [WRN] [13] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 27.5266ms with message '"Server is still starting up."'
+[2026-10-16 10:18:35.781 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:18:35.970 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-10-16 10:18:36.647 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:18:36.649 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-10-16 10:18:36.709 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:18:36.741 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.24.0.5"]
+[2026-10-16 10:18:36.755 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-10-16 10:18:36.755 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-10-16 10:18:36.756 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-10-16 10:18:38.796 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:18:38.797 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:18:38.817 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:18:39.323 +00:00] [INF] [7] Main: Prepare system for possible migrations
+[2026-10-16 10:18:42.360 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "12.2.0.0"
+[2026-10-16 10:18:42.403 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "12.2.0.0"
+[2026-10-16 10:18:42.441 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "12.2.0.0"
+[2026-10-16 10:18:42.712 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "12.2.0.0"
+[2026-10-16 10:18:42.715 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "ListenBrainz Similarity Provider" "12.2.0.0"
+[2026-10-16 10:18:42.726 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "12.2.0.0"
+[2026-10-16 10:18:43.787 +00:00] [INF] [7] Emby.Server.Implementations.Library.Search.SearchManager: Registered 0 external search providers: "". Fallback providers: "Database (priority 100)"
+[2026-10-16 10:18:47.788 +00:00] [INF] [7] Main: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:18:59.938 +00:00] [WRN] [7] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-10-16 10:19:01.364 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-10-16 10:19:01.860 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-10-17 03:00:00.000 +00:00, which is 16:40:58.1401044 from now.
+[2026-10-16 10:19:02.366 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-10-17 02:00:00.000 +00:00, which is 15:40:57.6334989 from now.
+[2026-10-16 10:19:04.017 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "8.1.3"
+[2026-10-16 10:19:04.784 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-10-16 10:19:05.185 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-10-16 10:19:05.602 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-10-16 10:19:06.419 +00:00] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:19:10.769 +00:00] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 4 seconds
+[2026-10-16 10:19:11.160 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan", "amf"]
+[2026-10-16 10:19:15.066 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-10-16 10:19:15.090 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: ServerId: "da590e879f704cc4bd40af30ba5c4564"
+[2026-10-16 10:19:15.091 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-10-16 10:19:15.099 +00:00] [INF] [7] Main: Startup complete 0:00:58.8413352
+[2026-10-16 10:29:04.657 +00:00] [INF] [41] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-10-16 10:29:04.791 +00:00] [INF] [38] Main: Preparing the database for shutdown...
+[2026-10-16 10:29:05.784 +00:00] [INF] [38] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-10-16 10:29:05.784 +00:00] [INF] [38] Emby.Server.Implementations.ApplicationHost: Disposing "Plugin"
+[2026-10-16 10:29:10.233 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:29:11.578 +00:00] [INF] [8] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:29:11.927 +00:00] [INF] [8] Main: Jellyfin version: "12.2.0"
+[2026-10-16 10:29:11.959 +00:00] [INF] [8] Main: Environment Variables: ["[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_CONFIG_DIR, /config/config]"]
+[2026-10-16 10:29:11.964 +00:00] [INF] [8] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-10-16 10:29:11.974 +00:00] [INF] [8] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-10-16 10:29:11.975 +00:00] [INF] [8] Main: Architecture: X64
+[2026-10-16 10:29:11.976 +00:00] [INF] [8] Main: 64-Bit Process: True
+[2026-10-16 10:29:11.976 +00:00] [INF] [8] Main: User Interactive: True
+[2026-10-16 10:29:11.976 +00:00] [INF] [8] Main: Processor count: 4
+[2026-10-16 10:29:11.976 +00:00] [INF] [8] Main: Program data path: "/config"
+[2026-10-16 10:29:11.977 +00:00] [INF] [8] Main: Log directory path: "/config/log"
+[2026-10-16 10:29:11.977 +00:00] [INF] [8] Main: Config directory path: "/config/config"
+[2026-10-16 10:29:11.977 +00:00] [INF] [8] Main: Cache path: "/cache"
+[2026-10-16 10:29:11.977 +00:00] [INF] [8] Main: Temp directory path: "/tmp/jellyfin"
+[2026-10-16 10:29:11.977 +00:00] [INF] [8] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-10-16 10:29:11.977 +00:00] [INF] [8] Main: Application directory: "/jellyfin/"
+[2026-10-16 10:29:12.045 +00:00] [INF] [8] Jellyfin.Server.Startup: Storage path `"/config/data"` (Network) successfully checked with "130.9GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:29:12.046 +00:00] [INF] [8] Jellyfin.Server.Startup: Storage path `"/cache"` (Fixed) successfully checked with "938GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:29:12.050 +00:00] [INF] [8] Jellyfin.Server.Startup: Storage path `"/config"` (Network) successfully checked with "130.9GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:29:12.085 +00:00] [INF] [8] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:29:12.794 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:29:12.859 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:29:12.862 +00:00] [INF] [8] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:29:13.299 +00:00] [INF] [8] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-10-16 10:29:14.104 +00:00] [WRN] [10] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 40.9864ms with message '"Server is still starting up."'
+[2026-10-16 10:29:20.372 +00:00] [INF] [8] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:29:20.443 +00:00] [INF] [8] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-10-16 10:29:20.541 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:29:20.542 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-10-16 10:29:20.547 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:29:20.551 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.24.0.5"]
+[2026-10-16 10:29:20.552 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-10-16 10:29:20.552 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-10-16 10:29:20.552 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-10-16 10:29:21.767 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:29:21.768 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:29:21.770 +00:00] [INF] [8] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:29:22.327 +00:00] [INF] [8] Main: Prepare system for possible migrations
+[2026-10-16 10:29:24.509 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "12.2.0.0"
+[2026-10-16 10:29:24.512 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "12.2.0.0"
+[2026-10-16 10:29:24.515 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "12.2.0.0"
+[2026-10-16 10:29:24.763 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "12.2.0.0"
+[2026-10-16 10:29:24.769 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "ListenBrainz Similarity Provider" "12.2.0.0"
+[2026-10-16 10:29:24.771 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "12.2.0.0"
+[2026-10-16 10:29:25.470 +00:00] [INF] [8] Emby.Server.Implementations.Library.Search.SearchManager: Registered 0 external search providers: "". Fallback providers: "Database (priority 100)"
+[2026-10-16 10:29:28.164 +00:00] [INF] [8] Main: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:29:37.508 +00:00] [WRN] [8] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-10-16 10:29:38.311 +00:00] [INF] [8] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-10-16 10:29:38.391 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-10-17 03:00:00.000 +00:00, which is 16:30:21.6092661 from now.
+[2026-10-16 10:29:38.578 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-10-17 02:00:00.000 +00:00, which is 15:30:21.4214403 from now.
+[2026-10-16 10:29:39.341 +00:00] [INF] [8] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "8.1.3"
+[2026-10-16 10:29:39.839 +00:00] [INF] [8] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-10-16 10:29:39.956 +00:00] [INF] [8] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-10-16 10:29:40.125 +00:00] [INF] [8] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-10-16 10:29:42.015 +00:00] [INF] [14] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:29:43.737 +00:00] [INF] [8] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan", "amf"]
+[2026-10-16 10:29:46.613 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 4 seconds
+[2026-10-16 10:29:48.030 +00:00] [INF] [8] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-10-16 10:29:48.314 +00:00] [INF] [8] Emby.Server.Implementations.ApplicationHost: ServerId: "da590e879f704cc4bd40af30ba5c4564"
+[2026-10-16 10:29:48.314 +00:00] [INF] [8] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-10-16 10:29:48.315 +00:00] [INF] [8] Main: Startup complete 0:00:39.7462177
+[2026-10-16 10:44:27.844 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-10-16 10:44:27.931 +00:00] [INF] [29] Main: Preparing the database for shutdown...
+[2026-10-16 10:44:28.170 +00:00] [INF] [29] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-10-16 10:44:28.170 +00:00] [INF] [29] Emby.Server.Implementations.ApplicationHost: Disposing "Plugin"
+[2026-10-16 10:44:36.245 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:44:39.807 +00:00] [INF] [8] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:44:40.347 +00:00] [INF] [8] Main: Jellyfin version: "12.2.0"
+[2026-10-16 10:44:40.410 +00:00] [INF] [8] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]"]
+[2026-10-16 10:44:40.445 +00:00] [INF] [8] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-10-16 10:44:40.452 +00:00] [INF] [8] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-10-16 10:44:40.453 +00:00] [INF] [8] Main: Architecture: X64
+[2026-10-16 10:44:40.457 +00:00] [INF] [8] Main: 64-Bit Process: True
+[2026-10-16 10:44:40.464 +00:00] [INF] [8] Main: User Interactive: True
+[2026-10-16 10:44:40.464 +00:00] [INF] [8] Main: Processor count: 4
+[2026-10-16 10:44:40.465 +00:00] [INF] [8] Main: Program data path: "/config"
+[2026-10-16 10:44:40.465 +00:00] [INF] [8] Main: Log directory path: "/config/log"
+[2026-10-16 10:44:40.465 +00:00] [INF] [8] Main: Config directory path: "/config/config"
+[2026-10-16 10:44:40.465 +00:00] [INF] [8] Main: Cache path: "/cache"
+[2026-10-16 10:44:40.466 +00:00] [INF] [8] Main: Temp directory path: "/tmp/jellyfin"
+[2026-10-16 10:44:40.466 +00:00] [INF] [8] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-10-16 10:44:40.467 +00:00] [INF] [8] Main: Application directory: "/jellyfin/"
+[2026-10-16 10:44:40.565 +00:00] [INF] [8] Jellyfin.Server.Startup: Storage path `"/config/data"` (Network) successfully checked with "131GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:44:40.589 +00:00] [INF] [8] Jellyfin.Server.Startup: Storage path `"/cache"` (Fixed) successfully checked with "938GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:44:40.600 +00:00] [INF] [8] Jellyfin.Server.Startup: Storage path `"/config"` (Network) successfully checked with "131GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:44:40.643 +00:00] [INF] [8] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:44:41.723 +00:00] [WRN] [10] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 2.8221ms with message '"Server is still starting up."'
+[2026-10-16 10:44:42.032 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:44:42.082 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:44:42.089 +00:00] [INF] [8] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:44:42.497 +00:00] [INF] [8] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-10-16 10:44:57.877 +00:00] [INF] [8] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:44:58.207 +00:00] [INF] [8] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-10-16 10:44:58.904 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:44:58.905 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-10-16 10:44:58.937 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:44:58.969 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.24.0.5"]
+[2026-10-16 10:44:58.983 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-10-16 10:44:58.984 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-10-16 10:44:58.984 +00:00] [INF] [8] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-10-16 10:45:00.732 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:45:00.733 +00:00] [INF] [8] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:45:00.736 +00:00] [INF] [8] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:45:01.549 +00:00] [INF] [8] Main: Prepare system for possible migrations
+[2026-10-16 10:45:03.648 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "12.2.0.0"
+[2026-10-16 10:45:03.651 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "12.2.0.0"
+[2026-10-16 10:45:03.653 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "12.2.0.0"
+[2026-10-16 10:45:03.811 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "12.2.0.0"
+[2026-10-16 10:45:03.814 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "ListenBrainz Similarity Provider" "12.2.0.0"
+[2026-10-16 10:45:03.819 +00:00] [INF] [8] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "12.2.0.0"
+[2026-10-16 10:45:04.537 +00:00] [INF] [8] Emby.Server.Implementations.Library.Search.SearchManager: Registered 0 external search providers: "". Fallback providers: "Database (priority 100)"
+[2026-10-16 10:45:07.155 +00:00] [INF] [7] Main: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:45:14.318 +00:00] [WRN] [7] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-10-16 10:45:15.034 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-10-16 10:45:15.321 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-10-17 03:00:00.000 +00:00, which is 16:14:44.6788035 from now.
+[2026-10-16 10:45:15.410 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-10-17 02:00:00.000 +00:00, which is 15:14:44.5898978 from now.
+[2026-10-16 10:45:15.906 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "8.1.3"
+[2026-10-16 10:45:16.249 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-10-16 10:45:16.366 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-10-16 10:45:16.533 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-10-16 10:45:18.652 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:45:19.186 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan", "amf"]
+[2026-10-16 10:45:20.594 +00:00] [INF] [13] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2026-10-16 10:45:22.149 +00:00] [INF] [7] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-10-16 10:45:22.159 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: ServerId: "da590e879f704cc4bd40af30ba5c4564"
+[2026-10-16 10:45:22.160 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-10-16 10:45:22.160 +00:00] [INF] [7] Main: Startup complete 0:00:50.9590941
+[2026-10-16 10:50:39.622 +00:00] [INF] [31] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-10-16 10:50:39.742 +00:00] [INF] [32] Main: Preparing the database for shutdown...
+[2026-10-16 10:50:40.108 +00:00] [INF] [32] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-10-16 10:50:40.108 +00:00] [INF] [32] Emby.Server.Implementations.ApplicationHost: Disposing "Plugin"
+[2026-10-16 10:50:49.382 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:50:52.307 +00:00] [INF] [7] Jellyfin.Server.ServerSetupApp.SetupServer: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:50:52.644 +00:00] [INF] [7] Main: Jellyfin version: "12.2.0"
+[2026-10-16 10:50:52.665 +00:00] [INF] [7] Main: Environment Variables: ["[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_CONFIG_DIR, /config/config]"]
+[2026-10-16 10:50:52.679 +00:00] [INF] [7] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2026-10-16 10:50:52.680 +00:00] [INF] [7] Main: Operating system: "Debian GNU/Linux 13 (trixie)"
+[2026-10-16 10:50:52.680 +00:00] [INF] [7] Main: Architecture: X64
+[2026-10-16 10:50:52.683 +00:00] [INF] [7] Main: 64-Bit Process: True
+[2026-10-16 10:50:52.683 +00:00] [INF] [7] Main: User Interactive: True
+[2026-10-16 10:50:52.684 +00:00] [INF] [7] Main: Processor count: 4
+[2026-10-16 10:50:52.684 +00:00] [INF] [7] Main: Program data path: "/config"
+[2026-10-16 10:50:52.684 +00:00] [INF] [7] Main: Log directory path: "/config/log"
+[2026-10-16 10:50:52.685 +00:00] [INF] [7] Main: Config directory path: "/config/config"
+[2026-10-16 10:50:52.686 +00:00] [INF] [7] Main: Cache path: "/cache"
+[2026-10-16 10:50:52.694 +00:00] [INF] [7] Main: Temp directory path: "/tmp/jellyfin"
+[2026-10-16 10:50:52.694 +00:00] [INF] [7] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2026-10-16 10:50:52.695 +00:00] [INF] [7] Main: Application directory: "/jellyfin/"
+[2026-10-16 10:50:52.781 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config/data"` (Network) successfully checked with "130.5GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:50:52.790 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/cache"` (Fixed) successfully checked with "938GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:50:52.794 +00:00] [INF] [7] Jellyfin.Server.Startup: Storage path `"/config"` (Network) successfully checked with "130.5GiB" free which is over the minimum of "2GiB".
+[2026-10-16 10:50:52.835 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:50:53.259 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:50:53.296 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:50:53.302 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:50:53.462 +00:00] [INF] [7] Jellyfin.Server.Migrations.JellyfinMigrationService: Initialise Migration service.
+[2026-10-16 10:50:55.103 +00:00] [WRN] [11] Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService: Health check "StartupCheck" with status Degraded completed after 3.3072ms with message '"Server is still starting up."'
+[2026-10-16 10:51:09.420 +00:00] [INF] [7] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2026-10-16 10:51:11.944 +00:00] [INF] [7] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2026-10-16 10:51:12.937 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:51:12.952 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2026-10-16 10:51:12.971 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.0/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2026-10-16 10:51:12.988 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.24.0.5"]
+[2026-10-16 10:51:13.001 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2026-10-16 10:51:13.001 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2026-10-16 10:51:13.002 +00:00] [INF] [7] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2026-10-16 10:51:15.089 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLite connection string: "Data Source=/config/data/jellyfin.db;Cache=Private;Default Timeout=60;Pooling=True"
+[2026-10-16 10:51:15.132 +00:00] [INF] [7] Jellyfin.Database.Providers.Sqlite.SqliteDatabaseProvider: SQLITE connection pragma command set to: 
+"PRAGMA locking_mode=NORMAL;
+PRAGMA journal_size_limit=134217728;
+PRAGMA synchronous=1;
+PRAGMA temp_store=2;
+"
+[2026-10-16 10:51:15.164 +00:00] [INF] [7] Jellyfin.Database.Implementations.Locking.NoLockBehavior: The database locking mode has been set to: NoLock.
+[2026-10-16 10:51:15.938 +00:00] [INF] [7] Main: Prepare system for possible migrations
+[2026-10-16 10:51:19.793 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "12.2.0.0"
+[2026-10-16 10:51:19.924 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "12.2.0.0"
+[2026-10-16 10:51:19.926 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "12.2.0.0"
+[2026-10-16 10:51:20.233 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "12.2.0.0"
+[2026-10-16 10:51:20.244 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "ListenBrainz Similarity Provider" "12.2.0.0"
+[2026-10-16 10:51:20.248 +00:00] [INF] [7] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "12.2.0.0"
+[2026-10-16 10:51:20.919 +00:00] [INF] [7] Emby.Server.Implementations.Library.Search.SearchManager: Registered 0 external search providers: "". Fallback providers: "Database (priority 100)"
+[2026-10-16 10:51:27.192 +00:00] [INF] [18] Main: Kestrel is listening on "0.0.0.0"
+[2026-10-16 10:51:39.192 +00:00] [WRN] [18] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2026-10-16 10:51:40.892 +00:00] [INF] [18] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2026-10-16 10:51:41.230 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2026-10-17 03:00:00.000 +00:00, which is 16:08:18.7701466 from now.
+[2026-10-16 10:51:41.830 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2026-10-17 02:00:00.000 +00:00, which is 15:08:18.1699517 from now.
+[2026-10-16 10:51:43.905 +00:00] [INF] [18] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "8.1.3"
+[2026-10-16 10:51:44.363 +00:00] [INF] [18] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "ac4", "dca", "flac", "mp3", "truehd"]
+[2026-10-16 10:51:44.475 +00:00] [INF] [18] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2026-10-16 10:51:44.552 +00:00] [INF] [18] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["bwdif_cuda", "bwdif_opencl", "deinterlace_qsv", "deinterlace_vaapi", "flip_vulkan", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemapx", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "transpose_cuda", "transpose_opencl", "transpose_vaapi", "transpose_vulkan", "vpp_qsv", "yadif_cuda", "yadif_opencl", "zscale", "alphasrc"]
+[2026-10-16 10:51:45.662 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2026-10-16 10:51:46.723 +00:00] [INF] [18] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan", "amf"]
+[2026-10-16 10:51:48.038 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2026-10-16 10:51:49.241 +00:00] [INF] [18] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2026-10-16 10:51:49.254 +00:00] [INF] [18] Emby.Server.Implementations.ApplicationHost: ServerId: "da590e879f704cc4bd40af30ba5c4564"
+[2026-10-16 10:51:49.254 +00:00] [INF] [18] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2026-10-16 10:51:49.255 +00:00] [INF] [18] Main: Startup complete 0:01:04.0327867
+[2026-10-16 10:53:31.707 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-10-16 10:53:31.793 +00:00] [INF] [21] Main: Preparing the database for shutdown...
+[2026-10-16 10:53:32.259 +00:00] [INF] [21] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-10-16 10:53:32.260 +00:00] [INF] [21] Emby.Server.Implementations.ApplicationHost: Disposing "Plugin"

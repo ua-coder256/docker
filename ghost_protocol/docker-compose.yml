@@ -22,8 +22,8 @@ services:
       - PGID=${PGID}
       - TZ=Etc/UTC
     ports:
-      - "${PORT_LIBREOFFICE}:3000"
-      - "3002:3001"               
+      - "${PORT_LIBREOFFICE}:3000" 
+      - "3003:3001"                
     shm_size: "1gb"
     restart: unless-stopped
 

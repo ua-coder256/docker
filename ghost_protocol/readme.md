@@ -134,7 +134,7 @@ Añade estos dos bloques.
       - TZ=Etc/UTC
     ports:
       - "${PORT_OBSIDIAN}:3000"
-      - "3001:3001"
+      - "3000:3003"
     shm_size: "1gb"
     restart: unless-stopped
 
@@ -146,7 +146,7 @@ Añade estos dos bloques.
       - PGID=${PGID}
       - TZ=Etc/UTC
     ports:
-      - "${PORT_OBSIDIAN}:3000" # <--- ¡ERROR LÓGICO! Este puerto ya está ocupado arriba
+      - "${PORT_LIBREOFFICE}:3000" # <--- ¡ERROR LÓGICO! Este puerto ya está ocupado arriba
       - "3001:3001"
     shm_size: "1gb"
     restart: unless-stopped
