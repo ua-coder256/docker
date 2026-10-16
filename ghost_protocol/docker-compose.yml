@@ -22,8 +22,8 @@ services:
       - PGID=${PGID}
       - TZ=Etc/UTC
     ports:
-      - "${PORT_LIBREOFFICE}:3000" # 🛠️ CORREGIDO: Cambiado a su propia variable de puerto
-      - "3002:3001"                # 🛠️ CORREGIDO: Cambiado el puerto del host para evitar el choque con el 3001 de Obsidian
+      - "${PORT_LIBREOFFICE}:3000"
+      - "3002:3001"               
     shm_size: "1gb"
     restart: unless-stopped
 
