@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+ obsidian:
+    image: lscr.io/linuxserver/obsidian:latest
+    container_name: obsidian   # 🛠️ CORREGIDO: Alineado correctamente a 4 espacios
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=Etc/UTC
+    ports:
+      - "${PORT_OBSIDIAN}:3000"
+      - "3001:3001"
+    shm_size: "1gb"
+    restart: unless-stopped
+ 
+ libreoffice:
+    image: lscr.io/linuxserver/libreoffice:latest
+    container_name: libreoffice
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=Etc/UTC
+    ports:
+      - "${PORT_LIBREOFFICE}:3000" # 🛠️ CORREGIDO: Cambiado a su propia variable de puerto
+      - "3002:3001"                # 🛠️ CORREGIDO: Cambiado el puerto del host para evitar el choque con el 3001 de Obsidian
+    shm_size: "1gb"
+    restart: unless-stopped
+
+ firefox:
+    image: jlesage/firefox:latest # <--- ¡CORREGIDO! Se añade ":latest" o la versión específica
+    ports:
+      - "${PORT_FIREFOX}:5800"
+ jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    ports:
+      - "${PORT_JELLYFIN}:8096"
+    environment:
+      - TZ=Etc/UTC
+    volumes:
+      - ./jellyfin_config:/config
+    restart: unless-stopped
+ uploader:
+    image: filebrowser/filebrowser:v2.23.0
+    container_name: uploader
+    volumes:
+      - ${RUTA_BASE}:/srv
+    ports:
+      - "${PORT_FILEBROWSER}:80"   # <--- ¡ERROR AQUÍ!
+    restart: unless-stopped
